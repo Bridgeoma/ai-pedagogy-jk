@@ -1,0 +1,59 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "ac4b1261-3a4e-48f1-9b1b-67a2321edecd": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 430,
+                    "y": 60
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "78f79e6e-202a-437a-9879-fc8597bfac2f": {
+                "source": {
+                    "id": "c17eed9e-fb14-4299-bf6c-d4f924ac3a70"
+                },
+                "target": {
+                    "id": "ac4b1261-3a4e-48f1-9b1b-67a2321edecd"
+                },
+                "z": 1
+            },
+            "adf2dde5-68d8-47ed-ae26-78c58fbaeb1d": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 290,
+                    "y": 130
+                },
+                "z": 0
+            }
+        }
+    },
+    "Resources": {
+        "s3mldatasource": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "ac4b1261-3a4e-48f1-9b1b-67a2321edecd"
+                }
+            }
+        },
+        "S3BPCRWA": {
+            "Type": "AWS::S3::BucketPolicy",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "adf2dde5-68d8-47ed-ae26-78c58fbaeb1d"
+                }
+            }
+        }
+    }
+}
